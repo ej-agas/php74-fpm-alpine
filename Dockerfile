@@ -15,7 +15,9 @@ RUN apk add --no-cache \
     libxslt-dev \
     libsodium-dev \
     icu-dev \
-    oniguruma-dev
+    oniguruma-dev \
+    git \
+    openssh
 
 RUN ln -s /usr/share/zoneinfo/Asia/Manila /etc/localtime
 
